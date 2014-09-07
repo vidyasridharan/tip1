@@ -12,6 +12,7 @@
 		450962FF19B82942008DA915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450962FD19B82942008DA915 /* Main.storyboard */; };
 		4509630119B82942008DA915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509630019B82942008DA915 /* Images.xcassets */; };
 		4509630D19B82942008DA915 /* tip1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509630C19B82942008DA915 /* tip1Tests.swift */; };
+		4557D6D519BBC2EC00D74EDD /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557D6D419BBC2EC00D74EDD /* SViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		4509630619B82942008DA915 /* tip1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tip1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4509630B19B82942008DA915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4509630C19B82942008DA915 /* tip1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip1Tests.swift; sourceTree = "<group>"; };
+		4557D6D419BBC2EC00D74EDD /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SViewController.swift; path = ../SViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +77,11 @@
 		450962F619B82942008DA915 /* tip1 */ = {
 			isa = PBXGroup;
 			children = (
+				4540881219BB7D66003DF9EE /* ViewControllers */,
 				450962F919B82942008DA915 /* AppDelegate.swift */,
-				450962FB19B82942008DA915 /* ViewController.swift */,
 				450962FD19B82942008DA915 /* Main.storyboard */,
+				450962FB19B82942008DA915 /* ViewController.swift */,
+				4557D6D419BBC2EC00D74EDD /* SViewController.swift */,
 				4509630019B82942008DA915 /* Images.xcassets */,
 				450962F719B82942008DA915 /* Supporting Files */,
 			);
@@ -107,6 +111,13 @@
 				4509630B19B82942008DA915 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4540881219BB7D66003DF9EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450962FC19B82942008DA915 /* ViewController.swift in Sources */,
+				4557D6D519BBC2EC00D74EDD /* SViewController.swift in Sources */,
 				450962FA19B82942008DA915 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +407,7 @@
 				4509631219B82942008DA915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4509631319B82942008DA915 /* Build configuration list for PBXNativeTarget "tip1Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +416,7 @@
 				4509631519B82942008DA915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
