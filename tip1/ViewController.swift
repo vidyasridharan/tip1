@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var NavigationController: UINavigationItem!
     @IBOutlet weak var quarterTotal: UILabel!
     @IBOutlet weak var halfTotal: UILabel!
     @IBOutlet weak var slider: UIView!
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
         var intValue = defaults.integerForKey("default_value")
         var tipPercentage = tipPercentages[intValue]
         tipControl.selectedSegmentIndex = intValue
+        
+        
     }
     
 
@@ -56,8 +59,11 @@ class ViewController: UIViewController {
         var tipPercentage = tipPercentages[intValue]
         tipControl.selectedSegmentIndex = intValue
         onEditingChanged(intValue)
+        
     }
     
+ 
+
     
 }
 
