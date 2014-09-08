@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
         halfTotal.text = String(format: "$%.2f", total/2)
         quarterTotal.text = String(format: "$%.2f", total/4)
+        
         if(amount.text != ""){
             UIView.animateWithDuration(0.4, animations: {
                 
