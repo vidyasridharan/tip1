@@ -19,3 +19,7 @@ Tip Calculator
 </ul>
 
 Time Spent:7 hours
+ 
+ <a href = "https://vimeo.com/105551590">
+ <img src = "https://vimeo.com/105551590">
+ </a>
