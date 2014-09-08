@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         var intValue = defaults.integerForKey("default_value")
         var tipPercentage = tipPercentages[intValue]
         tipControl.selectedSegmentIndex = intValue
+        tipControl.alpha = 0
         self.slider.alpha = 0
         
     }
@@ -44,6 +45,7 @@ class ViewController: UIViewController {
 
     @IBAction func onEditingChanged(sender: AnyObject) {
         self.slider.alpha = 0
+        tipControl.alpha  = 0
         slider.hidden = false
         var tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         var billAmountValue = NSString(string: amount.text).doubleValue
@@ -58,7 +60,9 @@ class ViewController: UIViewController {
                 
                 self.slider.alpha = 1
                 
-            })}
+            })
+            tipControl.alpha = 1
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
