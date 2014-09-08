@@ -1,14 +1,21 @@
-tip1
-====
 
 Tip Calculator
+==============
 
 <h1>Completed Tasks:</h1>
 <ul>
 <li> Created the tip calculator</li>
 <li> Added settings page</li>
 <li> Set the default value </li>
+<li> Added a navigation bar and implemented a segue to the settings page</li>
+</ul>
 
+<h1>Additional Tasks: </h1>
+<ul><li> Tried cloning the tip calculator mentioned in the additional tasks.</li>
+   <ul>
+   <li>Added animation to hide the tip and total amount when the bill amount is 0</li>
+   <li>Cloned the view to look similar to the demo</li>
+   </ul>
+</ul>
 
-
-<a href='http://postimg.org/image/pvd5264wd/' target='_blank'><img src='http://s14.postimg.org/pvd5264wd/Tip_Calculator.jpg' border='0' alt="Tip Calculator" /></a>
+Time Spent:7 hours
