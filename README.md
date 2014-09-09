@@ -4,6 +4,7 @@ Tip Calculator
 
 <h1>Completed Tasks:</h1>
 <ul>
+<li> All required tasks </li>
 <li> Created the tip calculator</li>
 <li> Added settings page</li>
 <li> Set the default value </li>
@@ -20,5 +21,5 @@ Tip Calculator
 
 Time Spent:7 hours
 
- <img src = "https://github.com/vidyasridharan/tip1/blob/master/Tip%20Calculator.gif">
+![Video Walkthrough](Tip Calculator.gif)
 
